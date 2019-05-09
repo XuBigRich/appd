@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts SYSTEM "../struts-2.1.dtd" >
+<struts>
+	<package name="XHZ" extends="root">
+	
+		<action name="xhz" class="actions.XHZAction">
+			<result name="apply">/xhz/apply.jsp</result>
+			<result name="main">main.jsp</result>
+			<result name="menu">menu.jsp</result>
+			<result name="sbzh">/xhz/sbzh.jsp</result>
+			<result name="SenaReg">/xhz/senare.jsp</result>
+			<result name="allProject">/xhz/allProject.jsp</result>
+			<result name="addProject">/xhz/addproject.jsp</result>
+			<result name="allroles">/xhz/addroles.jsp</result>
+			<result name="updroles">/xhz/updroles.jsp</result>
+		</action>
+
+	</package>
+</struts>

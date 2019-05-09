@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts SYSTEM "struts-2.1.dtd" >
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8"></constant>
+	<constant name="struts.multipart.maxSize" value="10485760"></constant>
+	
+	<package name="root" extends="struts-default">
+	
+		<!-- 拦截器配置 -->
+	
+		<global-results>
+			<result name="error">error.jsp</result>
+		</global-results>
+
+	</package>
+	
+	<include file="struts/XHZstruts.xml"/>
+	<include file="struts/CSstruts.xml"/>
+	<include file="struts/LGQstruts.xml"/>
+	<include file="struts/HCJstruts.xml"/>
+	<include file="struts/MJLstruts.xml"/>
+	
+</struts>

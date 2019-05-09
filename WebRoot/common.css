@@ -1,0 +1,42 @@
+body{
+	font-size:10pt;
+}
+table{
+	font-size:10pt;
+	border:0px solid #cccccc;
+}
+th{
+	color:#383431;
+	background-image:url("img/bg.gif");
+}
+tr{
+	text-align:center;
+}
+input{
+	border:1px #666666 solid;
+	height:21px;
+}
+.nob{
+	border:0px;	
+}
+textarea{
+	border:1px #666666 solid;
+}
+.left{
+	text-align:left;
+}
+.right{
+	text-align:right;
+}
+.selspan{
+	width:100px;
+	height:19px;
+	overflow:hidden;
+	border:1px solid #666666;
+}
+select{
+	width:105%;
+	margin:-2px;
+}
+
+

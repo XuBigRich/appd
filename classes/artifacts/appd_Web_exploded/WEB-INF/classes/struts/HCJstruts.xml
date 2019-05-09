@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts SYSTEM "../struts-2.1.dtd" >
+<struts>
+	<package name="HCJ" extends="root">
+	
+		<action name="hcj" class="actions.HCJAction">
+			<result name="xxx">/hcj/xxx.jsp</result>
+		</action>
+
+	</package>
+</struts>

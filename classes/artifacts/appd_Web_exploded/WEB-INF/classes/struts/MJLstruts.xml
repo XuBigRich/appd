@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts SYSTEM "../struts-2.1.dtd" >
+<struts>
+	<package name="MJL" extends="root">
+	
+		<action name="mjl" class="actions.MJLAction">
+			<result name="xxx">/mjl/xxx.jsp</result>
+		</action>
+
+	</package>
+</struts>
